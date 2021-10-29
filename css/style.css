@@ -189,6 +189,7 @@ footer {
   position: relative;
   padding-top: 100px;
   padding-bottom: 50px;
+  margin-top: 180px;
 }
 
 footer:before {
@@ -216,8 +217,9 @@ footer p {
 }
 
 .step-two {
-  margin-bottom: 0;
-  position: relative;
-  transform: translateY(50%);
-  z-index: 3;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
