@@ -19,7 +19,7 @@ This is a solution to the [Meet landing page challenge on Frontend Mentor](https
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://unruffled-payne-f1cc2b.netlify.app/](https://unruffled-payne-f1cc2b.netlify.app/)
 
 ## My process
 
@@ -32,4 +32,4 @@ This is a solution to the [Meet landing page challenge on Frontend Mentor](https
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@gabriel-salesh](https://www.frontendmentor.io/profile/gabriel-salesh)
