@@ -62,6 +62,7 @@ h2 {
 }
 
 .overline {
+  display: block;
   text-transform: uppercase;
   color: var(--meet-blue-dark);
   letter-spacing: 0.4rem;
