@@ -1,0 +1,63 @@
+/* ----- DESKTOP ----
+screen and (min-width: 1300px) */
+
+h1 {
+  font-size: 6.4rem;
+  line-height: 6.4rem;
+}
+
+/* ----- HEADER ----- */
+.banner .tablet-hero {
+  display: none;
+}
+
+.banner > div {
+  display: block;
+  flex-basis: 25%;
+}
+
+.banner {
+  justify-content: space-between;
+}
+
+header .logo {
+  margin-bottom: 70px;
+}
+
+header {
+  position: relative;
+}
+
+.introduction {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.showcase {
+  margin-top: 215px;
+}
+
+/* ----- FOOTER ----- */
+footer > div {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer > div .btn {
+  flex-basis: auto;
+}
+
+footer div > * {
+  flex-basis: 30%;
+}
+
+footer h2, footer p {
+  margin: 0;
+  text-align: left;
+}
+
+footer {
+  padding: 100px;
+}

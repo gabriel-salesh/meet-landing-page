@@ -1,0 +1,58 @@
+/* ----- TABLET ----
+screen and (min-width: 768px) */
+
+html { font-size: 11px; }
+
+/* ----- HEADER ----- */
+.banner > div {
+  display: none;
+}
+
+.banner .tablet-hero {
+  display: block;
+  flex-basis: 100%;
+}
+
+.buttons {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons > .btn:first-child {
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+
+.buttons > .btn:last-child {
+  margin-left: 10px;
+}
+
+/* ----- SHOWCASE ----- */
+.showcase-pictures {
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+.showcase-pictures > * {
+  flex-basis: calc((100% / 4) - 10px);
+  margin: 10px;
+}
+
+.showcase-pictures div img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+  background-image: url('../assets/tablet/image-footer.jpg');
+}
+
+footer h2 {
+  margin-bottom: 50px;
+  font-size: 40px;
+}
+
+footer p {
+  margin-bottom: 35px;
+}
